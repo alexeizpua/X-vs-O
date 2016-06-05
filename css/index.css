@@ -1,0 +1,34 @@
+body {
+}
+h1 {
+    text-align: center;
+}
+.firstPge{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.firstPgeNone {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+}
+table td {
+    border: 3px solid #000;
+    width: 64px;
+    height: 64px;
+}
+.victoryTr {
+    background: red;
+}
+

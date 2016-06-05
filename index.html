@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="xo">
+
+<head > 
+<title>xo</title>
+<link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="./css/font-awesome.min.css">
+<script src="js/angular.min.js"></script>
+<script src="js/my.js"></script>
+</head>
+
+<body ng-controller="xoCtrl">
+
+<div class="{{firstPge}}">
+   <div>
+        <h1>Крестики Нолик</h1>
+        <button ng-click="clickStart()">играть</button>
+    </div>
+</div>
+
+<h1>{{message}}</h1>
+</p>
+<div align="center"><button ng-click="clickButton()">Переиграть</button><center>
+<br>
+<table>
+  <tr>
+    <td align="center"><img class="fa" src="./img/bacgroundTd.jpg" NAME="pole0" ng-click="clickTd(0)"   ></td>
+    <td align="center"><img src="./img/bacgroundTd.jpg" NAME="pole1" ng-click="clickTd(1)"   ></td>
+    <td align="center"><img src="./img/bacgroundTd.jpg" NAME="pole2" ng-click="clickTd(2)"   ></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./img/bacgroundTd.jpg" NAME="pole3" ng-click="clickTd(3)"   ></td>
+    <td align="center"><img src="./img/bacgroundTd.jpg" NAME="pole4" ng-click="clickTd(4)"   ></td>
+    <td align="center"><img src="./img/bacgroundTd.jpg" NAME="pole5" ng-click="clickTd(5)"   ></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./img/bacgroundTd.jpg" NAME="pole6" ng-click="clickTd(6)"   ></td>
+    <td align="center"><img src="./img/bacgroundTd.jpg" NAME="pole7" ng-click="clickTd(7)"   ></td>
+    <td align="center"><img src="./img/bacgroundTd.jpg" NAME="pole8" ng-click="clickTd(8)"   ></td>
+  </tr>
+</table>
+</center></div>
+
+
+</body>
+
+</html>
